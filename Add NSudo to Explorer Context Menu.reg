@@ -1,0 +1,10 @@
+﻿Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\NSudo\command]
+@="NSudo.exe"
+[HKEY_CLASSES_ROOT\LibraryFolder\background\shell]
+[HKEY_CLASSES_ROOT\LibraryFolder\background\shell\NSudo]
+[HKEY_CLASSES_ROOT\LibraryFolder\background\shell\NSudo\command]
+@="NSudo.exe"
+[HKEY_CLASSES_ROOT\Directory\shell\NSudo\command]
+@="NSudo -U:T -P:E -M:S cmd"
